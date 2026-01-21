@@ -1,11 +1,18 @@
 .app {
-  padding: 2rem;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 .controls {
@@ -61,7 +68,7 @@ button:focus-visible {
 
 .results {
   margin-top: 2rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
@@ -69,6 +76,7 @@ button:focus-visible {
   background-color: #1a1a1a;
   border-radius: 8px;
   border: 1px solid #646cff;
+  min-width: 250px;
 }
 
 .result {
